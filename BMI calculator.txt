@@ -1,0 +1,8 @@
+Python progremming:
+
+height = input("Please enter your height in m: ")
+weight = input("Now, please enter your weight in kg: ")
+float_height = float(height)
+float_weight = float(weight)
+BMI = float_weight / float_height ** 2 
+print ("Your current BMI is: " + str(round(BMI)))
